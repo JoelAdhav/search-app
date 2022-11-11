@@ -1,0 +1,44 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    border: 3px solid #000;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cardWrapper img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.cardWrapper h3 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.cardWrapper h4 {
+    font-size: 20px;
+    font-weight: 200;
+    padding: 5px 10px;
+}
+
+.cardWrapper p {
+    font-size: 1px;
+    padding: 0 10px;
+    margin: 10px;
+    text-align: center;
+}
